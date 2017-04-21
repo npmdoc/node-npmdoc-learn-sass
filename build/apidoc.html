@@ -1,0 +1,1528 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/claudiopro/learn-sass#readme"
+
+    >learn-sass (v1.3.1)</a>
+</h1>
+<h4>Learn SASS and SCSS through a workshopper adventure.</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.learn-sass">module learn-sass</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.__">
+            function <span class="apidocSignatureSpan">learn-sass.</span>__
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.__n">
+            function <span class="apidocSignatureSpan">learn-sass.</span>__n
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">learn-sass.</span>_eventsCount</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>_events</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>_meta</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>appStorage</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>cli</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>domain</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>exercise</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>exercises</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>i18n</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>i18n.lookup</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>i18n.mustache</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>i18n.mustache.Context.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>i18n.mustache.Scanner.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>i18n.mustache.Writer.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.</span>options</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.learn-sass.appStorage">module learn-sass.appStorage</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.appStorage.get">
+            function <span class="apidocSignatureSpan">learn-sass.appStorage.</span>get
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.appStorage.reset">
+            function <span class="apidocSignatureSpan">learn-sass.appStorage.</span>reset
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.appStorage.save">
+            function <span class="apidocSignatureSpan">learn-sass.appStorage.</span>save
+            <span class="apidocSignatureSpan">(name, data)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">learn-sass.appStorage.</span>dir</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.learn-sass.exercise">module learn-sass.exercise</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">learn-sass.exercise.</span>passed</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.exercise.getSolutionFiles">
+            function <span class="apidocSignatureSpan">learn-sass.exercise.</span>getSolutionFiles
+            <span class="apidocSignatureSpan">(callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.exercise.getStdout">
+            function <span class="apidocSignatureSpan">learn-sass.exercise.</span>getStdout
+            <span class="apidocSignatureSpan">(type, child)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">learn-sass.exercise.</span>_eventsCount</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.exercise.</span>_cleanups</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.exercise.</span>_events</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.exercise.</span>_prepares</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.exercise.</span>_processors</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.exercise.</span>_setups</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.exercise.</span>domain</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.learn-sass.i18n">module learn-sass.i18n</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.__">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>__
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.__n">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>__n
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.change">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>change
+            <span class="apidocSignatureSpan">(lng)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.changeLang">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>changeLang
+            <span class="apidocSignatureSpan">(lang)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.changePrefix">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>changePrefix
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.extend">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>extend
+            <span class="apidocSignatureSpan">(obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.fallback">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>fallback
+            <span class="apidocSignatureSpan">(key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.has">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>has
+            <span class="apidocSignatureSpan">(key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.lang">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>lang
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.raw">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>raw
+            <span class="apidocSignatureSpan">(key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.sub">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>sub
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.translate">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>translate
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.translateFirst">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>translateFirst
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.vsprintf">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.</span>vsprintf
+            <span class="apidocSignatureSpan">(fmt, argv)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.i18n.</span>lookup</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.i18n.</span>mustache</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.i18n.</span>storage</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.learn-sass.i18n.lookup">module learn-sass.i18n.lookup</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.lookup.get">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.lookup.</span>get
+            <span class="apidocSignatureSpan">(key)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.learn-sass.i18n.mustache">module learn-sass.i18n.mustache</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Context">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>Context
+            <span class="apidocSignatureSpan">(view, parentContext)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Scanner">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>Scanner
+            <span class="apidocSignatureSpan">(string)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Writer">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>Writer
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.clearCache">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>clearCache
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.escape">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>escape
+            <span class="apidocSignatureSpan">(string)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.parse">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>parse
+            <span class="apidocSignatureSpan">(template, tags)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.render">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>render
+            <span class="apidocSignatureSpan">(template, view, partials)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.to_html">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>to_html
+            <span class="apidocSignatureSpan">(template, view, partials, send)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>tags</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>name</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>version</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.learn-sass.i18n.mustache.Context.prototype">module learn-sass.i18n.mustache.Context.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Context.prototype.lookup">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Context.prototype.</span>lookup
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Context.prototype.push">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Context.prototype.</span>push
+            <span class="apidocSignatureSpan">(view)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.learn-sass.i18n.mustache.Scanner.prototype">module learn-sass.i18n.mustache.Scanner.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Scanner.prototype.eos">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Scanner.prototype.</span>eos
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Scanner.prototype.scan">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Scanner.prototype.</span>scan
+            <span class="apidocSignatureSpan">(re)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Scanner.prototype.scanUntil">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Scanner.prototype.</span>scanUntil
+            <span class="apidocSignatureSpan">(re)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.learn-sass.i18n.mustache.Writer.prototype">module learn-sass.i18n.mustache.Writer.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Writer.prototype.clearCache">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Writer.prototype.</span>clearCache
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Writer.prototype.parse">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Writer.prototype.</span>parse
+            <span class="apidocSignatureSpan">(template, tags)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Writer.prototype.render">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Writer.prototype.</span>render
+            <span class="apidocSignatureSpan">(template, view, partials)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.learn-sass.i18n.mustache.Writer.prototype.renderTokens">
+            function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Writer.prototype.</span>renderTokens
+            <span class="apidocSignatureSpan">(tokens, context, partials, originalTemplate)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.learn-sass" id="apidoc.module.learn-sass">module learn-sass</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.__" id="apidoc.element.learn-sass.__">
+        function <span class="apidocSignatureSpan">learn-sass.</span>__
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">__ = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.__n" id="apidoc.element.learn-sass.__n">
+        function <span class="apidocSignatureSpan">learn-sass.</span>__n
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">__n = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.learn-sass.appStorage" id="apidoc.module.learn-sass.appStorage">module learn-sass.appStorage</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.appStorage.get" id="apidoc.element.learn-sass.appStorage.get">
+        function <span class="apidocSignatureSpan">learn-sass.appStorage.</span>get
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function get(name) {
+  var file = fileName(name)
+  try {
+    var fileData = fs.readFileSync(file, &#x27;utf8&#x27;)
+  } catch (e) {
+    // TODO: write this error in a log
+    return null
+  }
+  try {
+    return JSON.parse(fileData)
+  } catch (e) {
+    // TODO: write this error in a log
+    return null
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.appStorage.reset" id="apidoc.element.learn-sass.appStorage.reset">
+        function <span class="apidocSignatureSpan">learn-sass.appStorage.</span>reset
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function reset() {
+  rimraf.sync(dir)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.appStorage.save" id="apidoc.element.learn-sass.appStorage.save">
+        function <span class="apidocSignatureSpan">learn-sass.appStorage.</span>save
+        <span class="apidocSignatureSpan">(name, data)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function save(name, data) {
+  mkdirp.sync(dir)
+  try {
+    fs.writeFileSync(fileName(name), JSON.stringify(data, null, 2))
+  } catch (e) {
+    // TODO: write this error in a log
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.learn-sass.exercise" id="apidoc.module.learn-sass.exercise">module learn-sass.exercise</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.exercise.getSolutionFiles" id="apidoc.element.learn-sass.exercise.getSolutionFiles">
+        function <span class="apidocSignatureSpan">learn-sass.exercise.</span>getSolutionFiles
+        <span class="apidocSignatureSpan">(callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getSolutionFiles = function (callback) {
+  var translated = path.join(this.dir, &#x27;./solution_&#x27; + this.lang)
+  var fallback = path.join(this.dir, &#x27;./solution&#x27;)
+
+  checkPath(translated, function(err, list) {
+    if (list &#x26;&#x26; list.length &#x3e; 0)
+      return callback(null, list)
+
+    checkPath(fallback, callback)
+  });
+
+
+  function checkPath(dir, callback) {
+    fs.exists(dir, function (exists) {
+      if (!exists)
+        return callback(null, []);
+
+      fs.readdir(dir, function (err, list) {
+        if (err)
+          return callback(err)
+
+        list = list
+          .filter(function (f) { return (/\.js$/).test(f) })
+          .map(function (f) { return path.join(dir, f)})
+
+        callback(null, list)
+      })
+    })
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.exercise.getStdout" id="apidoc.element.learn-sass.exercise.getStdout">
+        function <span class="apidocSignatureSpan">learn-sass.exercise.</span>getStdout
+        <span class="apidocSignatureSpan">(type, child)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getStdout = function (type, child) {
+  // type == &#x27;submission&#x27; || &#x27;solution&#x27;
+  return child.stdout
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// backwards compat for workshops that use older custom setup functions
+if (!this.solutionCommand) this.solutionCommand = [ this.solution ].concat(this.solutionArgs)
+if (!this.submissionCommand) this.submissionCommand = [ this.submission ].concat(this.submissionArgs)
+
+this.sassExec = path.resolve(__dirname, &#x27;./node_modules/node-sass/bin/node-sass&#x27;);
+
+this.submissionChild  = spawn(this.sassExec, this.submissionCommand, { env: this.env })
+this.submissionStdout = this.<span class="apidocCodeKeywordSpan">getStdout</span>(&#x27;submission&#x27;, this.submissionChild)
+
+setImmediate(function () { // give other processors a chance to overwrite stdout
+  this.submissionStdout.on(&#x27;end&#x27;, ended)
+}.bind(this))
+
+if (mode == &#x27;verify&#x27;) {
+  this.solutionChild  = spawn(this.sassExec, this.solutionCommand, { env: this.env })
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.learn-sass.i18n" id="apidoc.module.learn-sass.i18n">module learn-sass.i18n</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.__" id="apidoc.element.learn-sass.i18n.__">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>__
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">__ = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.__n" id="apidoc.element.learn-sass.i18n.__n">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>__n
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">__n = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.change" id="apidoc.element.learn-sass.i18n.change">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>change
+        <span class="apidocSignatureSpan">(lng)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">change = function (lng) {
+  lang = choose(lng)
+  translator.changeLang(lang)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.changeLang" id="apidoc.element.learn-sass.i18n.changeLang">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>changeLang
+        <span class="apidocSignatureSpan">(lang)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function changeLang(lang) {
+		result.changePrefix(lang + &#x22;.&#x22;);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.changePrefix" id="apidoc.element.learn-sass.i18n.changePrefix">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>changePrefix
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function changePrefix() {
+			throw new Error(&#x22;Forbidden by configuration&#x22;);
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.extend" id="apidoc.element.learn-sass.i18n.extend">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>extend
+        <span class="apidocSignatureSpan">(obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">extend = function (obj) {
+  return i18n(i18nExtend(result, {
+    get: function (key) {
+      return obj[key]
+    }
+  }))
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.fallback" id="apidoc.element.learn-sass.i18n.fallback">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>fallback
+        <span class="apidocSignatureSpan">(key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function defaultFallback(key) {
+	if (!key) {
+		return &#x22;(?)&#x22;;
+	}
+	return key;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.has" id="apidoc.element.learn-sass.i18n.has">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>has
+        <span class="apidocSignatureSpan">(key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function has(key) {
+	var val = this.raw(key);
+	return val !== undefined &#x26;&#x26; val !== null;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.lang" id="apidoc.element.learn-sass.i18n.lang">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>lang
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lang = function () {
+  return lang
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.raw" id="apidoc.element.learn-sass.i18n.raw">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>raw
+        <span class="apidocSignatureSpan">(key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function raw(key) {
+	return this.lookup.get(key);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.sub" id="apidoc.element.learn-sass.i18n.sub">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>sub
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">sub = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.translate" id="apidoc.element.learn-sass.i18n.translate">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>translate
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">translate = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.translateFirst" id="apidoc.element.learn-sass.i18n.translateFirst">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>translateFirst
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">translateFirst = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.vsprintf" id="apidoc.element.learn-sass.i18n.vsprintf">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.</span>vsprintf
+        <span class="apidocSignatureSpan">(fmt, argv)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">vsprintf = function (fmt, argv) {
+	var argvClone = argv.slice();
+	argvClone.unshift(fmt);
+	return sprintf.apply(null, argvClone);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.learn-sass.i18n.lookup" id="apidoc.module.learn-sass.i18n.lookup">module learn-sass.i18n.lookup</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.lookup.get" id="apidoc.element.learn-sass.i18n.lookup.get">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.lookup.</span>get
+        <span class="apidocSignatureSpan">(key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">get = function (key) {
+  return i18n.has(key) ? i18n.__(key) : lookup.get(key);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.learn-sass.i18n.mustache" id="apidoc.module.learn-sass.i18n.mustache">module learn-sass.i18n.mustache</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Context" id="apidoc.element.learn-sass.i18n.mustache.Context">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>Context
+        <span class="apidocSignatureSpan">(view, parentContext)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Context(view, parentContext) {
+  this.view = view == null ? {} : view;
+  this.cache = { &#x27;.&#x27;: this.view };
+  this.parent = parentContext;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Scanner" id="apidoc.element.learn-sass.i18n.mustache.Scanner">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>Scanner
+        <span class="apidocSignatureSpan">(string)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Scanner(string) {
+  this.string = string;
+  this.tail = string;
+  this.pos = 0;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Writer" id="apidoc.element.learn-sass.i18n.mustache.Writer">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>Writer
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Writer() {
+  this.cache = {};
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.clearCache" id="apidoc.element.learn-sass.i18n.mustache.clearCache">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>clearCache
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">clearCache = function () {
+  return defaultWriter.clearCache();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.escape" id="apidoc.element.learn-sass.i18n.mustache.escape">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>escape
+        <span class="apidocSignatureSpan">(string)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function escapeHtml(string) {
+  return String(string).replace(/[&#x26;&#x3c;&#x3e;&#x22;&#x27;\/]/g, function (s) {
+    return entityMap[s];
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.parse" id="apidoc.element.learn-sass.i18n.mustache.parse">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>parse
+        <span class="apidocSignatureSpan">(template, tags)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">parse = function (template, tags) {
+  return defaultWriter.parse(template, tags);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.render" id="apidoc.element.learn-sass.i18n.mustache.render">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>render
+        <span class="apidocSignatureSpan">(template, view, partials)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">render = function (template, view, partials) {
+  return defaultWriter.render(template, view, partials);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.to_html" id="apidoc.element.learn-sass.i18n.mustache.to_html">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.</span>to_html
+        <span class="apidocSignatureSpan">(template, view, partials, send)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">to_html = function (template, view, partials, send) {
+  var result = mustache.render(template, view, partials);
+
+  if (isFunction(send)) {
+    send(result);
+  } else {
+    return result;
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.learn-sass.i18n.mustache.Context.prototype" id="apidoc.module.learn-sass.i18n.mustache.Context.prototype">module learn-sass.i18n.mustache.Context.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Context.prototype.lookup" id="apidoc.element.learn-sass.i18n.mustache.Context.prototype.lookup">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Context.prototype.</span>lookup
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lookup = function (name) {
+  var value;
+  if (name in this.cache) {
+    value = this.cache[name];
+  } else {
+    var context = this;
+
+    while (context) {
+      if (name.indexOf(&#x27;.&#x27;) &#x3e; 0) {
+        value = context.view;
+
+        var names = name.split(&#x27;.&#x27;), i = 0;
+        while (value != null &#x26;&#x26; i &#x3c; names.length) {
+          value = value[names[i++]];
+        }
+      } else {
+        value = context.view[name];
+      }
+
+      if (value != null) break;
+
+      context = context.parent;
+    }
+
+    this.cache[name] = value;
+  }
+
+  if (isFunction(value)) {
+    value = value.call(this.view);
+  }
+
+  return value;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Context.prototype.push" id="apidoc.element.learn-sass.i18n.mustache.Context.prototype.push">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Context.prototype.</span>push
+        <span class="apidocSignatureSpan">(view)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">push = function (view) {
+  return new Context(view, this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.learn-sass.i18n.mustache.Scanner.prototype" id="apidoc.module.learn-sass.i18n.mustache.Scanner.prototype">module learn-sass.i18n.mustache.Scanner.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Scanner.prototype.eos" id="apidoc.element.learn-sass.i18n.mustache.Scanner.prototype.eos">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Scanner.prototype.</span>eos
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">eos = function () {
+  return this.tail === &#x22;&#x22;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Scanner.prototype.scan" id="apidoc.element.learn-sass.i18n.mustache.Scanner.prototype.scan">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Scanner.prototype.</span>scan
+        <span class="apidocSignatureSpan">(re)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">scan = function (re) {
+  var match = this.tail.match(re);
+
+  if (match &#x26;&#x26; match.index === 0) {
+    var string = match[0];
+    this.tail = this.tail.substring(string.length);
+    this.pos += string.length;
+    return string;
+  }
+
+  return &#x22;&#x22;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Scanner.prototype.scanUntil" id="apidoc.element.learn-sass.i18n.mustache.Scanner.prototype.scanUntil">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Scanner.prototype.</span>scanUntil
+        <span class="apidocSignatureSpan">(re)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">scanUntil = function (re) {
+  var index = this.tail.search(re), match;
+
+  switch (index) {
+  case -1:
+    match = this.tail;
+    this.tail = &#x22;&#x22;;
+    break;
+  case 0:
+    match = &#x22;&#x22;;
+    break;
+  default:
+    match = this.tail.substring(0, index);
+    this.tail = this.tail.substring(index);
+  }
+
+  this.pos += match.length;
+
+  return match;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.learn-sass.i18n.mustache.Writer.prototype" id="apidoc.module.learn-sass.i18n.mustache.Writer.prototype">module learn-sass.i18n.mustache.Writer.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Writer.prototype.clearCache" id="apidoc.element.learn-sass.i18n.mustache.Writer.prototype.clearCache">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Writer.prototype.</span>clearCache
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">clearCache = function () {
+  this.cache = {};
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Writer.prototype.parse" id="apidoc.element.learn-sass.i18n.mustache.Writer.prototype.parse">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Writer.prototype.</span>parse
+        <span class="apidocSignatureSpan">(template, tags)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">parse = function (template, tags) {
+  var cache = this.cache;
+  var tokens = cache[template];
+
+  if (tokens == null) {
+    tokens = cache[template] = parseTemplate(template, tags);
+  }
+
+  return tokens;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Writer.prototype.render" id="apidoc.element.learn-sass.i18n.mustache.Writer.prototype.render">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Writer.prototype.</span>render
+        <span class="apidocSignatureSpan">(template, view, partials)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">render = function (template, view, partials) {
+  var tokens = this.parse(template);
+  var context = (view instanceof Context) ? view : new Context(view);
+  return this.renderTokens(tokens, context, partials, template);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.learn-sass.i18n.mustache.Writer.prototype.renderTokens" id="apidoc.element.learn-sass.i18n.mustache.Writer.prototype.renderTokens">
+        function <span class="apidocSignatureSpan">learn-sass.i18n.mustache.Writer.prototype.</span>renderTokens
+        <span class="apidocSignatureSpan">(tokens, context, partials, originalTemplate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">renderTokens = function (tokens, context, partials, originalTemplate) {
+  var buffer = &#x27;&#x27;;
+
+  // This function is used to render an arbitrary template
+  // in the current context by higher-order sections.
+  var self = this;
+  function subRender(template) {
+    return self.render(template, context, partials);
+  }
+
+  var token, value;
+  for (var i = 0, len = tokens.length; i &#x3c; len; ++i) {
+    token = tokens[i];
+
+    switch (token[0]) {
+    case &#x27;#&#x27;:
+      value = context.lookup(token[1]);
+      if (!value) continue;
+
+      if (isArray(value)) {
+        for (var j = 0, jlen = value.length; j &#x3c; jlen; ++j) {
+          buffer += this.renderTokens(token[4], context.push(value[j]), partials, originalTemplate);
+        }
+      } else if (typeof value === &#x27;object&#x27; || typeof value === &#x27;string&#x27;) {
+        buffer += this.renderTokens(token[4], context.push(value), partials, originalTemplate);
+      } else if (isFunction(value)) {
+        if (typeof originalTemplate !== &#x27;string&#x27;) {
+          throw new Error(&#x27;Cannot use higher-order sections without the original template&#x27;);
+        }
+
+        // Extract the portion of the original template that the section contains.
+        value = value.call(context.view, originalTemplate.slice(token[3], token[5]), subRender);
+
+        if (value != null) buffer += value;
+      } else {
+        buffer += this.renderTokens(token[4], context, partials, originalTemplate);
+      }
+
+      break;
+    case &#x27;^&#x27;:
+      value = context.lookup(token[1]);
+
+      // Use JavaScript&#x27;s definition of falsy. Include empty arrays.
+      // See https://github.com/janl/mustache.js/issues/186
+      if (!value || (isArray(value) &#x26;&#x26; value.length === 0)) {
+        buffer += this.renderTokens(token[4], context, partials, originalTemplate);
+      }
+
+      break;
+    case &#x27;&#x3e;&#x27;:
+      if (!partials) continue;
+      value = isFunction(partials) ? partials(token[1]) : partials[token[1]];
+      if (value != null) buffer += this.renderTokens(this.parse(value), context, partials, value);
+      break;
+    case &#x27;&#x26;&#x27;:
+      value = context.lookup(token[1]);
+      if (value != null) buffer += value;
+      break;
+    case &#x27;name&#x27;:
+      value = context.lookup(token[1]);
+      if (value != null) buffer += mustache.escape(value);
+      break;
+    case &#x27;text&#x27;:
+      buffer += token[1];
+      break;
+    }
+  }
+
+  return buffer;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
